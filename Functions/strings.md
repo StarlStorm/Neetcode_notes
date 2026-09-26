@@ -31,8 +31,10 @@ Key difference
 
 `s.replace("!", "")` means **Get rid of !**
 
-``` -import re
+```
+import re
 s = "Hello, World! 123."
 clean = re.sub(r'[^a-zA-Z0-9\s]', '', s)
-# "Hello World 123" ```
+# "Hello World 123"
+```
 
