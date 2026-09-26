@@ -28,3 +28,11 @@ Key difference
 "".join() — takes a collection of strings → produces one combined string. Used to build.
 .strip() — takes one string → produces a trimmed version of that same string. Used to clean.
 
+
+`s.replace("!", "")` means **Get rid of !**
+
+       ``` -import re
+        s = "Hello, World! 123."
+        clean = re.sub(r'[^a-zA-Z0-9\s]', '', s)
+        # "Hello World 123" ```
+
