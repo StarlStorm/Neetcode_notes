@@ -38,3 +38,21 @@ clean = re.sub(r'[^a-zA-Z0-9\s]', '', s)
 # "Hello World 123"
 ```
 
+
+
+
+
+
+
+`.isalpha()`	all characters are letters only
+
+`.isdigit()`	all characters are digits only
+
+`.isalnum()`	all characters are letters or digits
+
+`.isspace()`	all characters are whitespace
+
+`.islower()`	all letters are lowercase
+
+`.isupper()`	all letters are uppercase
+
