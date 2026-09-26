@@ -29,7 +29,7 @@ Key difference
 .strip() — takes one string → produces a trimmed version of that same string. Used to clean.
 
 
-`s.replace("!", "")` means **Get rid of !**
+`s.replace("!", "")` means **Get rid of !** **The first argument could be variable as well**
 
 ```python
 import re
