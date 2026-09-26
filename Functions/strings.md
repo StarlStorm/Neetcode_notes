@@ -3,3 +3,9 @@
   -`" ".join()` means **still merge, but add a space between two elements**
   
   -`"-".join()` means **add a - between elements**
+
+
+```python
+from collections import Counter
+c = Counter(["a", "b", "a"])
+```
