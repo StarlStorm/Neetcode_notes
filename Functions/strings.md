@@ -44,15 +44,15 @@ clean = re.sub(r'[^a-zA-Z0-9\s]', '', s)
 
 
 
-`.isalpha()`	all characters are letters only
+`.isalpha()`	check if all characters are letters only
 
-`.isdigit()`	all characters are digits only
+`.isdigit()`	check if all characters are digits only
 
-`.isalnum()`	all characters are letters or digits
+`.isalnum()`	check if all characters are letters or digits
 
-`.isspace()`	all characters are whitespace
+`.isspace()`	check if all characters are whitespace
 
-`.islower()`	all letters are lowercase
+`.islower()`	check if all letters are lowercase
 
-`.isupper()`	all letters are uppercase
+`.isupper()`	check if all letters are uppercase
 
